@@ -4,15 +4,15 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'SimpleTracer'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'SimpleTracer plugin'
   s.description      = <<-DESC
   SimpleTracer plugin
                        DESC
-  s.homepage         = 'https://github.com/youssef-fk/SimpleTracer.git'
+  s.homepage         = 'https://github.com/Koizeay/SimpleTracer.git'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'FRI' => 'filali.khattabi.youssef@gmail.com' }
-  s.source           = { :git => "https://github.com/youssef-fk/SimpleTracer.git", :tag => "#{s.version}" }
+  s.source           = { :git => "https://github.com/Koizeay/SimpleTracer.git", :tag => "#{s.version}" }
 
   s.source_files = 'Sources/**/*'
   s.dependency 'SimplePing'
