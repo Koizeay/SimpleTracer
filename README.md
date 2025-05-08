@@ -2,11 +2,9 @@
 
 Simple trace route with simple ping, almost simply in Swift.
 
-基于 ping 并采用 Swift 构建的简单 `traceroute`，用于检测客户端与服务主机之间的网络状况。
+_**Forked from** https://github.com/youssef-fk/SimpleTracer_
 
-![Demo](./assets/demo.gif)
-
-## Usage 用法
+## Usage
 
 ```swift
 SimpleTracer.trace(host: testCase.host, 
@@ -34,10 +32,6 @@ SimpleTracer.trace(host: testCase.host,
      ***/
 }
 ```
-
-## Test cases 示例
-
-![](./assets/more_cases.jpg)
 
 
 
